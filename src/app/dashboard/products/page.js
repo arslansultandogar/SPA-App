@@ -220,7 +220,6 @@ export default function ProductsPage() {
               <p className="text-gray-600">
                 Try adjusting your filters or search criteria
               </p>
-              
             </div>
           )}
         </main>
