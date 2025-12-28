@@ -220,20 +220,7 @@ export default function ProductsPage() {
               <p className="text-gray-600">
                 Try adjusting your filters or search criteria
               </p>
-              <button
-                className="bg-linear-to-r from-pink-400 via-pink-400 to-red-500 hover:from-pink-500 hover:via-pink-500 hover:to-red-600 text-white font-semibold py-2 px-6 rounded-lg transition-all hover:-translate-y-0.5"
-                onClick={() => {
-                  setFilters({
-                    searchTerm: "",
-                    minPrice: "",
-                    maxPrice: "",
-                    onlyAvailable: false,
-                  });
-                  setCurrentPage(1);
-                }}
-              >
-                Reset Filters
-              </button>
+              
             </div>
           )}
         </main>
