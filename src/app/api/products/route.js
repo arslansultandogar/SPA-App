@@ -2,7 +2,7 @@
 import { NextResponse } from 'next/server';
 import mongoose from 'mongoose';
 
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb+srv://admin:LuQu8gEtglKd08bp@cluster0.ssspfad.mongodb.net/ecommercedb";
+const MONGODB_URI = process.env.MONGODB_URI;
 
 async function connectDB() {
   if (mongoose.connection.readyState >= 1) return;
