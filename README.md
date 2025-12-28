@@ -33,10 +33,3 @@ npm run dev
 # or
 pnpm dev
 ```
-
-Build for production:
-
-```bash
-npm run build
-npm run start
-```
